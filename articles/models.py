@@ -11,6 +11,7 @@ class Articles(models.Model):
     slug = models.SlugField()
     body = models.TextField()
     date = models.DateTimeField(auto_now = True)
+    image = models.ImageField(default="def.jpg" , blank=True)
 
     def __str__(self):
         title = f" name : {self.title}"
