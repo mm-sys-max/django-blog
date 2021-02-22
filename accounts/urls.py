@@ -6,5 +6,6 @@ from django.urls import path
 app_name = "accounts"
 
 urlpatterns = [
-    path("signup" , views.sign_up , name="signup")
+    path("signup" , views.sign_up , name="signup"),
+    path("login" , views.log_in , name="login"),
 ]
