@@ -1,4 +1,3 @@
 # django-blog
-#سیستم مدریت وبلاگ
-نوشته شده با فریمورک جنگو 
-تحت لاینسس GPL V3.0
+# Python CMS For Python Host's
+@ GPL 3. 
